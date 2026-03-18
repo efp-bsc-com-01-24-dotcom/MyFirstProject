@@ -45,6 +45,7 @@ int main(){
                     cin.ignore(1000,'\n');
 
                     cout<<"The area of the square is: "<<square(side)<<endl;
+                    value = false;
                     break;
                 case 2:
                     cout<<"Please enter the length of the rectangle: ";
@@ -61,6 +62,7 @@ int main(){
                     cin.ignore(1000,'\n');
 
                     cout<<"The area of the rectangle is: "<<rectangle(length, width)<<endl;
+                    value = false;
                     break;
                 case 3:
                     cout<<"Please enter the base of the triangle: ";
@@ -77,6 +79,7 @@ int main(){
                     cin.ignore(1000,'\n');
 
                     cout<<"The area of the triangle is: "<<triangle(base, height)<<endl;
+                    value = false;
                     break;
                 case 4:
                     cout<<"Quitting program...\n"<<endl;
