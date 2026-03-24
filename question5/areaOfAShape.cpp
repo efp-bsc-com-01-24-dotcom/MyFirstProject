@@ -7,7 +7,7 @@ using namespace std;
 
 /*functions for the scope of the user*/
     int square(int x){
-        return x*x*x;
+        return x*x;
     }
     int rectangle(int l, int w){
         return l*w;   
@@ -15,6 +15,7 @@ using namespace std;
     int triangle(int b, int h){
         return 0.5*b*h; 
     }
+    
 
 int main(){
 
