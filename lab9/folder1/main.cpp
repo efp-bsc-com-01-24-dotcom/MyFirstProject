@@ -6,12 +6,20 @@ using namespace std;
 
 int main(){
     Rectangle rect;
-    Triangle tringl;
-    rect.Setvalue(4,5);
-    tringl.Setvalue(4,5);
-    cout<<"Area of rectangle is: "<<rect.Area()<<endl;
-    cout<<"Area of triangle is: "<<tringl.Area()<<endl;
+    Triangle trigl;
 
+    Polygon* pPoly1 = &rect;
+    Polygon* pPoly2 = &trigl;
+
+    pPoly1 -> Setvalue(4,5);
+    pPoly2 -> Setvalue(4,5);
+
+    pPoly1 -> PrintArea();
+    pPoly2 -> PrintArea();
+    
+    
+    
+   
 
     return 0;
 }
