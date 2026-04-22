@@ -5,21 +5,18 @@
 using namespace std;
 
 int main(){
-    Rectangle rect;
-    Triangle trigl;
 
-    Polygon* pPoly1 = &rect;
-    Polygon* pPoly2 = &trigl;
+    Polygon* pPoly1 = new Rectangle();
+    pPoly1->Setvalue(4, 5);
 
-    pPoly1 -> Setvalue(4,5);
-    pPoly2 -> Setvalue(4,5);
+    Polygon* pPoly2 = new Triangle();
+    pPoly2->Setvalue(4, 5);
 
-    pPoly1 -> PrintArea();
-    pPoly2 -> PrintArea();
-    
-    
-    
-   
+    pPoly1->PrintArea();
+    pPoly2->PrintArea();
+
+    delete pPoly1;
+    delete pPoly2;
 
     return 0;
 }
