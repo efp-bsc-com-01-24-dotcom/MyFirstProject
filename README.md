@@ -156,7 +156,8 @@ g++ -o program main.cpp
 ---
 
 ## Author
-COM221 C++ Programming Labs
+**efp-bsc-com-01-24**  
+Email: efp-bsc-com-01-24@unima.ac.me
 
 ## Last Updated
 April 22, 2026
