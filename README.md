@@ -157,7 +157,7 @@ g++ -o program main.cpp
 
 ## Author
 **efp-bsc-com-01-24**  
-Email: efp-bsc-com-01-24@unima.ac.me
+Email: efp-bsc-com-01-24@unima.ac.mw
 
 ## Last Updated
 April 22, 2026
