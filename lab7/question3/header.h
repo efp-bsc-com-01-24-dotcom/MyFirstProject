@@ -1,5 +1,4 @@
-#ifndef header_h
-#define header_h
+#pragma once
 namespace shapes{
 
     class square{
@@ -37,4 +36,4 @@ namespace shapes{
              ~circle();
     };
 }
-#endif // header_h
+ 
